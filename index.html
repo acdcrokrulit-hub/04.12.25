@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Резюме — Разманов Ринат Андреевич</title>
+  <style>
+    /* Минималистичный адаптивный стиль */
+    :root{--bg:#f5f7fb;--card:#ffffff;--accent:#0b5fff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;background:var(--bg);color:#0f172a}
+    .wrap{max-width:900px;margin:28px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,#e6eefc,#dbeafe);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:var(--accent)}
+    .card{background:var(--card);padding:20px;margin-top:18px;border-radius:12px;box-shadow:0 8px 30px rgba(2,6,23,0.06)}
+    h1{margin:0;font-size:22px}
+    .meta{color:var(--muted);margin-top:6px}
+    .two{display:grid;grid-template-columns:1fr 320px;gap:20px}
+    .section{margin-bottom:14px}
+    .section h3{margin:0 0 8px 0;font-size:16px}
+    ul{margin:0;padding-left:18px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
+    .links{display:flex;gap:8px;flex-wrap:wrap}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:880px){.two{grid-template-columns:1fr} .avatar{width:76px;height:76px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar" style="padding:0;overflow:hidden"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA..." style="width:100%;height:100%;object-fit:cover;border-radius:12px"/></div>
+      <div>
+        <h1>Разманов Ринат Андреевич</h1>
+        <div class="meta">Телефон: 8 (705) 658 05 04 • Навыки: HTML, CSS, Java, Python</div>
+        <div style="margin-top:8px" class="links">
+          <a class="btn" href="https://github.com/acdcrokrulit-hub" target="_blank" rel="noopener">GitHub</a>
+          <!-- Ссылка с текстом "пшерги" ведет на указанный репозиторий (по желанию можно заменить URL) -->
+          
+          <a class="btn" href="/resume.pdf" download>Скачать PDF резюме</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="card two">
+      <main>
+        <section class="section">
+          <h3>Краткое резюме</h3>
+          <p>Мотивированный начинающий разработчик с практическими знаниями HTML, CSS, Java и Python. Имею опыт самостоятельного создания веб-страниц и небольших приложений. Быстро учусь, люблю разбирать чужой код и доводить проекты до рабочего состояния. Готов к стажировкам и задачам по фронтенду и бэкенду на вспомогательных ролях.</p>
+        </section>
+
+        <section class="section">
+          <h3>Навыки</h3>
+          <ul>
+            <li>HTML5, CSS3 — семантическая разметка, адаптивная верстка</li>
+            <li>Java — базовая объектно-ориентированная разработка</li>
+            <li>Python — скрипты, простые программы, работа с библиотеками</li>
+            <li>Git и GitHub — загрузка и поддержка репозиториев</li>
+            <li>Основы работы с базами данных (SQLite)</li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h3>Опыт работы</h3>
+          <p>Нет профессионального опыта — открыт для стажировок и фриланс-проектов. Готов начать с задач по верстке, тестированию и поддержке проектов.</p>
+        </section>
+
+        <section class="section">
+          <h3>Образование</h3>
+          <p>Незаконченное высшее — Astana International University</p>
+        </section>
+
+        <section class="section">
+          <h3>Языки</h3>
+          <ul>
+            <li>Русский — родной</li>
+            <li>Английский — базовый (техническая документация)</li>
+          </ul>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card" style="padding:14px">
+          <h3>Контакты</h3>
+          <p>Телефон: <strong>8 (705) 658 05 04</strong></p>
+          <p>Email: <strong>mukhanovr@icloud.com</strong></p>
+          <p>GitHub: <a href="https://github.com/acdcrokrulit-hub" target="_blank">acdcrokrulit-hub</a></p>
+        </div>
+
+        <div class="card" style="padding:14px;margin-top:12px">
+          <h3>Проекты</h3>
+          <ul>
+            <li>Примеры верстки и учебных скриптов — репозиторий на GitHub</li>
+            <li>Мини-проекты: одностраничные сайты, скрипты на Python</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Сайт-резюме подготовлен автоматически. Для правок — пришлите текст, и я обновлю страницу или сгенерирую PDF.
+    </footer>
+  </div>
+</body>
+</html>
